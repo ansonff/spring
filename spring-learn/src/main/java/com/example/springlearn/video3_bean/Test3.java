@@ -1,10 +1,10 @@
-package com.example.springlearn.video2_bean;
+package com.example.springlearn.video3_bean;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
-public class Test2 {
+public class Test3 {
 
   @Autowired private HelloBean helloBean;
 

@@ -1,4 +1,4 @@
-package com.example.springlearn.video2_bean;
+package com.example.springlearn.video3_bean;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

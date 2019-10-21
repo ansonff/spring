@@ -1,7 +1,6 @@
 package com.example.springlearn;
 
-import com.example.springlearn.video2_bean.HelloBean;
-import com.example.springlearn.video2_bean.Test2;
+import com.example.springlearn.video3_bean.Test3;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -17,13 +16,14 @@ public class SpringLearnApplication {
 
     }
 
-    @Autowired Test2 test2;
+    @Autowired
+    Test3 test3;
 
     @Bean
     public CommandLineRunner run() throws Exception {
         return args -> {
 
-            test2.run();
+            test3.run();
 
         };
     }

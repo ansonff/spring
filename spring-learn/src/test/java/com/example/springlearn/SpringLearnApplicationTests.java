@@ -1,6 +1,6 @@
 package com.example.springlearn;
 
-import com.example.springlearn.video2_bean.HelloBean;
+import com.example.springlearn.video3_bean.HelloBean;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
