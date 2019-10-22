@@ -1,6 +1,5 @@
-package com.example.springlearn;
+package com.example.springlearn.video4_bean_reference;
 
-import com.example.springlearn.video3_bean.Test3;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -11,20 +10,16 @@ import org.springframework.context.annotation.Bean;
 public class SpringLearnApplication {
 
     public static void main(String[] args) {
-
         SpringApplication.run(SpringLearnApplication.class, args);
-
     }
 
     @Autowired
-    Test3 test3;
+    Test test;
 
     @Bean
     public CommandLineRunner run() throws Exception {
         return args -> {
-
-            test3.run();
-
+            test.run();
         };
     }
 

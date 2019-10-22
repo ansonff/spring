@@ -1,4 +1,4 @@
-package com.example.springlearn.video3_bean;
+package com.example.springlearn.video4_bean_reference.bean;
 
 public class HelloBean {
 
